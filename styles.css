@@ -1,0 +1,109 @@
+html{
+	font-family: arial;
+	font-size: 16px;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #A0A0A0;
+	margin: 4px 0;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 16px;
+}
+
+.row {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+.col {
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.heading-container {
+	justify-content: center;
+	margin: 48px 0 0 0;
+}
+
+.heading-font {
+	font-size: 2rem;
+	color: #404040;
+}
+
+.sub-heading-container{
+	justify-content: center;
+	margin: 8px auto 0 auto;
+}
+
+.sub-heading-font {
+	font-size: 1rem;
+	color: #404040;
+}
+
+.intro-container {
+	margin: 16px 0;
+}
+
+
+.section-container {
+	margin-top: 8px;
+}
+
+.section-font {
+	font-size: 1.2rem;
+	color: #404040;
+}
+
+.topic-container {
+	padding: 16px 32px;
+}
+
+.topic-font-title {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #404040;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.topic-font-body{
+	font-size: 1rem;
+	color: #404040;
+}
+
+.skill-list-container{
+	margin: 0 0 0 16px;
+}
+
+.paragraph-container {
+	margin: 16px 16px;
+}
+
+.paragraph-font {
+	text-indent: 2rem;
+}
+
+.italic{
+	font-style: italic;
+}
