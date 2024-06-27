@@ -45,7 +45,7 @@ hr {
 }
 
 .heading-font {
-	font-size: 2rem;
+	font-size: 32px;
 	color: #404040;
 }
 
@@ -55,7 +55,7 @@ hr {
 }
 
 .sub-heading-font {
-	font-size: 1rem;
+	font-size: 16px;
 	color: #404040;
 }
 
@@ -69,7 +69,7 @@ hr {
 }
 
 .section-font {
-	font-size: 1.2rem;
+	font-size: 19.2px;
 	color: #404040;
 }
 
@@ -78,7 +78,7 @@ hr {
 }
 
 .topic-font-title {
-	font-size: 1.2rem;
+	font-size: 19.2px;
 	font-weight: bold;
 	color: #404040;
 }
@@ -88,7 +88,7 @@ hr {
 }
 
 .topic-font-body{
-	font-size: 1rem;
+	font-size: 16px;
 	color: #404040;
 }
 
@@ -101,7 +101,7 @@ hr {
 }
 
 .paragraph-font {
-	text-indent: 2rem;
+	text-indent: 32px;
 }
 
 .italic{
