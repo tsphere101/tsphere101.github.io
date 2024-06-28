@@ -103,19 +103,22 @@ hr {
 }
 
 a {
-	text-decoration: none;
+	text-decoration:none
 	color: var(--color-figure-grey);
 	cursor: ne-resize;
 }
 
 a:hover {
-	text-decoration: underline;
+	color: var(--color-figure-grey);
 	cursor: ne-resize;
 }
 
-a:visted {
+a:visited{
 	color: var(--color-figure-grey);
-	text-decoration: none;
+}
+
+a:link {
+	color: var(--color-figure-grey);
 }
 
 .container {
@@ -233,6 +236,10 @@ a:visted {
 
 .italic{
 	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
 }
 
 .font-small {
