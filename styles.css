@@ -1,6 +1,98 @@
+@font-face {
+	  font-family: "SF Pro Text";
+	  font-style: normal;
+	  font-weight: 300;
+	  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-Light.ttf");
+}
+@font-face {
+	  font-family: "SF Pro Text";
+	  font-style: normal;
+	  font-weight: 400;
+	  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-Regular.ttf");
+}
+@font-face {
+	  font-family: "SF Pro Text";
+	  font-style: normal;
+	  font-weight: 500;
+	  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-Medium.ttf");
+}
+@font-face {
+	  font-family: "SF Pro Text";
+	  font-style: normal;
+	  font-weight: 600;
+	  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-SemiBold.ttf");
+}
+@font-face {
+	  font-family: "SF Pro Text";
+	  font-style: normal;
+	  font-weight: 700;
+	  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-Bold.ttf");
+}
+@font-face {
+	  font-family: "SF Pro Text";
+	  font-style: normal;
+	  font-weight: 900;
+	  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-Heavy.ttf");
+}
+@font-face {
+	  font-family: "SF Pro Display";
+	  font-style: normal;
+	  font-weight: 100;
+	  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProDisplay-Ultralight.ttf");
+}
+@font-face {
+	  font-family: "SF Pro Display";
+	  font-style: normal;
+	  font-weight: 200;
+	  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProDisplay-Thin.ttf");
+}
+@font-face {
+	  font-family: "SF Pro Display";
+	  font-style: normal;
+	  font-weight: 300;
+	  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProDisplay-Light.ttf");
+}
+@font-face {
+	  font-family: "SF Pro Display";
+	  font-style: normal;
+	  font-weight: 400;
+	  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProDisplay-Regular.ttf");
+}
+@font-face {
+	  font-family: "SF Pro Display";
+	  font-style: normal;
+	  font-weight: 500;
+	  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProDisplay-Medium.ttf");
+}
+@font-face {
+	  font-family: "SF Pro Display";
+	  font-style: normal;
+	  font-weight: 600;
+	  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProDisplay-SemiBold.ttf");
+}
+@font-face {
+	  font-family: "SF Pro Display";
+	  font-style: normal;
+	  font-weight: 700;
+	  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProDisplay-Bold.ttf");
+}
+@font-face {
+	  font-family: "SF Pro Display";
+	  font-style: normal;
+	  font-weight: 800;
+	  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProDisplay-Black.ttf");
+}
+@font-face {
+	  font-family: "SF Pro Display";
+	  font-style: normal;
+	  font-weight: 900;
+	  src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProDisplay-Heavy.ttf");
+}
+
 html{
-	font-family: arial;
-	font-size: 16px;
+	font-family: "SF Pro Text", "SF Pro Display", Arial;
+	font-size: 17px;
+	--color-figure-grey: rgb(29, 29, 31);
 }
 
 hr {
@@ -13,6 +105,22 @@ hr {
 	max-width: 900px;
 	margin: 0 auto;
 	padding: 0 16px;
+}
+
+.mt-1{
+	margin-top: 1rem;
+}
+
+.mt-2 {
+	margin-top: 2rem;
+}
+
+.mb-1 {
+	margin-bottom: 1rem;
+}
+
+.mb-2 {
+	margin-bottom: 2rem;
 }
 
 .row {
@@ -45,8 +153,9 @@ hr {
 }
 
 .heading-font {
-	font-size: 32px;
-	color: #404040;
+	font-size: 2rem;
+	font-weight:700;
+	color: var(--color-figure-grey);
 }
 
 .sub-heading-container{
@@ -55,8 +164,8 @@ hr {
 }
 
 .sub-heading-font {
-	font-size: 16px;
-	color: #404040;
+	font-size: 1rem;
+	color: var(--color-figure-grey);
 }
 
 .intro-container {
@@ -69,8 +178,8 @@ hr {
 }
 
 .section-font {
-	font-size: 19.2px;
-	color: #404040;
+	font-size: 1rem;
+	color: var(--color-figure-grey);
 }
 
 .topic-container {
@@ -78,18 +187,19 @@ hr {
 }
 
 .topic-font-title {
-	font-size: 19.2px;
-	font-weight: bold;
-	color: #404040;
+	font-size: 1rem;
+	font-weight: 600;
+	color: var(--color-figure-grey);
 }
 
 .bold {
-	font-weight: bold;
+	font-weight: 600;
 }
 
 .topic-font-body{
-	font-size: 16px;
-	color: #404040;
+	font-size: 1rem;
+	font-weight:400;
+	color: var(--color-figure-grey);
 }
 
 .skill-list-container{
@@ -106,4 +216,8 @@ hr {
 
 .italic{
 	font-style: italic;
+}
+
+.font-small {
+	font-size: 0.8rem;
 }
